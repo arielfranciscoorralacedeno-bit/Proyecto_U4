@@ -26,3 +26,13 @@ Aplicación de escritorio en Java con interfaz **Swing** estructurada bajo el pa
 ## Pruebas Unitarias
 
 Ejecuta las pruebas ubicadas en `test/` (`PruebasUnitarias.java`) para verificar el comportamiento del dominio, la persistencia en CSV y la coordinación del controlador.
+
+## Carga y Guardado de Datos en CSV
+
+Si al iniciar la aplicación aparece el aviso de que no se encontró `data\contenidos.csv` o quieres trabajar con un archivo específico sin perder cambios:
+
+1. Haz clic en **Aceptar** en el aviso inicial si aparece.
+2. Presiona el botón **Cargar CSV** en la barra superior de acciones.
+3. En la ventana **download**, navega hasta la carpeta `data/` de tu proyecto (o la carpeta donde guardes tu archivo CSV), selecciona tu archivo `contenidos.csv` y haz clic en **Abrir**.
+4. Verifica que los registros carguen correctamente en la tabla de **Contenidos Audiovisuales**.
+5. Cada vez que registres o modifiques información, presiona **Guardar CSV** para conservar los cambios en el archivo y no perderlos al cerrar la aplicación

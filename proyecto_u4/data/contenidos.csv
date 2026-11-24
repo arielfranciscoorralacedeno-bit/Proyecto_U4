@@ -1,0 +1,4 @@
+TIPO;ID;TITULO;ANIO;GENERO;CAMPO_EXTRA_1;CAMPO_EXTRA_2;DETALLE_RELACIONES
+PELICULA;MOV-001;El Origen;2010;Ciencia Ficcion;Christopher Nolan;148;ACT-01:Leonardo DiCaprio:Estadounidense|ACT-02:Ken Watanabe:Japones
+SERIE;SER-001;Dark;2017;Misterio;Baran bo Odar;;1:8:2017#2:8:2019|ACT-03:Louis Hofmann:Aleman
+DOCUMENTAL;DOC-001;Planeta Tierra;2006;Naturaleza;Ecosistemas Globales;50;INV-01:David Attenborough:Biologia Evolutiva
